@@ -19,7 +19,7 @@
 ### Features:
 - YouTube API allowing searching and playing videos directly from YouTube.
 - Advanced search to filter search results by order, duration, etc.
-- Dark mode to reduce eye strain while binge watching.
+- Dark mode to reduce eye strain while binge watching
 
 ---
 
