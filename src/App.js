@@ -15,7 +15,7 @@ const App = () => {
 			<div className="app-body">
 				<div className="logo">
 					<a href={`/${REPO_NAME}`}>
-						<span>We</span>Tube
+						<span>u</span>Vid
 					</a>
 				</div>
 

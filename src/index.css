@@ -27,7 +27,7 @@ body.dark-mode {
 }
 
 body {
-	--logo: #6495ed;
+	--logo: #ed6464;
 	background-image: radial-gradient(var(--logo) 0.1px, var(--label) 1.5px);
 	background-size: 20px 20px;
 	font-family: "Ubuntu", sans-serif;

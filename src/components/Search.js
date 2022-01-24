@@ -14,27 +14,27 @@ import {
 
 const Search = () => {
 	// console.log("search.js loaded");
-	const [keyword, setKeyword] = useState("funny dog videos");
+	const [keyword, setKeyword] = useState("...videos engraçados");
 	const [videos, setVideos] = useState([]);
 	const [hasError, setError] = useState(false);
 	const [errorCode, setErrorCode] = useState("404");
 	const [loading, setLoading] = useState(false);
 	const [order, OrderDropdown] = useDropdown(
-		"Order By",
+		"Ordenar Por",
 		"relevance",
 		faSortAmountDownAlt,
 		["date", "relevance", "rating", "title", "viewCount"]
 	);
 
 	const [safeSearch, SafeSearchDropdown] = useDropdown(
-		"Safe Search",
+		"Pesquisa Segura",
 		"none",
 		faUserShield,
 		["moderate", "none", "strict"]
 	);
 
 	const [videoDuration, VideoDurationDropdown] = useDropdown(
-		"Video Duration",
+		"Duração do Vídeo",
 		"any",
 		faClock,
 		["any", "long", "medium", "short"]
@@ -93,7 +93,7 @@ const Search = () => {
 				console.log(err);
 				setError(true);
 				setErrorCode(err.response.status);
-				console.log("ERROR FOUND IN API");
+				console.log("Erro encontrado na API");
 			});
 	};
 
@@ -108,7 +108,7 @@ const Search = () => {
 				<label htmlFor="keyword">
 					<p>
 						<FontAwesomeIcon icon={faSearch} className="fa-icon" />
-						Search
+						Pesquisar
 					</p>
 				</label>
 				<input
@@ -127,7 +127,7 @@ const Search = () => {
 
 				<label htmlFor="advanced-search-toggle">
 					<div className="advanced-search-checkbox"></div>
-					<p>Advanced Search</p>
+					<p>Pesquisa Avançada</p>
 				</label>
 
 				{checked ? (
@@ -138,7 +138,7 @@ const Search = () => {
 					</div>
 				) : null}
 
-				<button onClick={() => setChecked(false)}>Submit</button>
+				<button onClick={() => setChecked(false)}>Pesquisar</button>
 			</form>
 			{hasError ? (
 				<SiteError errorText={`Code: ${errorCode}`} redirect={false} />
