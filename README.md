@@ -4,13 +4,6 @@
 <p align="center">
         <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="Made with React">
         <img src="https://img.shields.io/static/v1?label=Youtube%20API&message=v3&color=white&labelColor=ff0000&logo=youtube" alt="Youtube api">      
-        <a href="https://www.codefactor.io/repository/github/sourhub226/wetube-react">
-                <img src="https://www.codefactor.io/repository/github/sourhub226/wetube-react/badge" alt="CodeFactor">
-        </a>
-        <img src="https://github.com/sourhub226/wetube-react/actions/workflows/main.yml/badge.svg" alt="Github pages deploy">
-        <a href="https://github.com/sourhub226/wetube-react/issues">
-                <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="contributions welcome">
-        </a>
         <img src="https://views.whatilearened.today/views/github/sourhub226/todo-list-react.svg" alt="ViewCount">
 </p>
 
@@ -35,16 +28,12 @@ Light mode                                        |Dark mode
 ### Running the app: 
 1. Clone the project repo
 
-        git clone https://github.com/sourhub226/wetube-react.git
+        git clone https://github.com/davidglauber/uVid
  
 2. Move to root directory of the project 
 
-        cd wetube-react
+        cd uVid
      
-3. Obtain a developer key for YouTube API v3 from [here](https://developers.google.com/youtube/registering_an_application)
-4. Create a `.env` file based on `.env.template` provided and put the above obtained key in it. <br>The contents of the `.env` file should look something like this:
-
-        API_KEY=XXXXXXXXXXXXXXXXXXXXXXXX
         
 5. Install all required npm packages
 
@@ -53,6 +42,3 @@ Light mode                                        |Dark mode
 6. Run the app
 
         npm run dev
-"# uVid-PWEB2-" 
-"# uVid-PWEB2-" 
-"# uVid" 
